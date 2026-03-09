@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 145 30% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 145 30% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 145 30% 15%;
+    --primary: 145 40% 18%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 145 20% 95%;
+    --secondary-foreground: 145 40% 18%;
+    --muted: 145 15% 96%;
+    --muted-foreground: 145 10% 40%;
+    --accent: 45 70% 47%;
+    --accent-foreground: 145 40% 18%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 145 15% 88%;
+    --input: 145 15% 88%;
+    --ring: 145 40% 18%;
+    --radius: 0.5rem;
+    
+    /* Brand Colors */
+    --brand-green: #1a3c27;
+    --brand-green-light: #2d5a3d;
+    --brand-gold: #c9a227;
+    --brand-gold-light: #d4b84a;
+    --brand-cream: #f8f6f0;
+    --brand-dark: #0d1f14;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, var(--brand-gold) 0%, var(--brand-gold-light) 100%);
+  }
+  
+  .bg-brand-gradient {
+    background: linear-gradient(135deg, var(--brand-green) 0%, var(--brand-green-light) 100%);
+  }
+  
+  .bg-hero-pattern {
+    background-image: 
+      radial-gradient(circle at 20% 80%, rgba(201, 162, 39, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(26, 60, 39, 0.15) 0%, transparent 50%);
+  }
+  
+  .glass-effect {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24;
+  }
+}
