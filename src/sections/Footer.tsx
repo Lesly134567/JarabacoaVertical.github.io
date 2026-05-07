@@ -31,9 +31,9 @@ export default function Footer() {
             {/* Brand */}
             <div className="lg:col-span-1">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#c9a227] rounded-lg flex items-center justify-center">
-                  <span className="text-xl font-bold text-[#1a3c27]">JV</span>
-                </div>
+              <div className="w-12 h-12 bg-[#c9a227] rounded-lg flex items-center justify-center overflow-hidden">
+              <img src="/logo.jpg" alt="JarabacoaVertical" className="h-full w-full object-cover" />
+                 </div>
                 <div>
                   <h3 className="text-lg font-bold">JarabacoaVertical</h3>
                   <p className="text-xs text-[#c9a227]">Inversión en Altura</p>
@@ -52,7 +52,7 @@ export default function Footer() {
                   <Instagram className="h-4 w-4" />
                 </a>
                 <a 
-                  href="https://wa.me/18090000000" 
+                  href="https://wa.me/18296196203" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#c9a227] hover:text-[#1a3c27] transition-all duration-300"
@@ -107,16 +107,16 @@ export default function Footer() {
                     href="mailto:info@jarabacoav.com"
                     className="text-white/70 hover:text-[#c9a227] text-sm transition-colors"
                   >
-                    info@jarabacoav.com
+                    danielgalan541@gmail.com
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-[#c9a227] flex-shrink-0" />
                   <a 
-                    href="tel:+18090000000"
+                    href="tel:+18296196203"
                     className="text-white/70 hover:text-[#c9a227] text-sm transition-colors"
                   >
-                    +1 (809) 000-0000
+                    +1 (829) 619-6203
                   </a>
                 </li>
               </ul>

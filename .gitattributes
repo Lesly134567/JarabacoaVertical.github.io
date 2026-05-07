@@ -1,0 +1,5 @@
+# Ignorar archivos de configuración en las estadísticas
+tailwind.config.js linguist-documentation
+postcss.config.js linguist-documentation
+vite.config.ts linguist-documentation
+*.json linguist-documentation 

@@ -24,14 +24,14 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'info@jarabacoav.com',
-      href: 'mailto:info@jarabacoav.com'
+      value: 'danielgalan541@gmail.com',
+      href: 'danielgalan541@gmail.com'
     },
     {
       icon: Phone,
       label: 'Teléfono',
-      value: '+1 (809) 000-0000',
-      href: 'tel:+18090000000'
+      value: '+1 (829) 619-6203',
+      href: 'tel:+18296196203'
     },
     {
       icon: MapPin,
@@ -45,13 +45,13 @@ export default function Contact() {
     {
       icon: Instagram,
       label: 'Instagram',
-      href: 'https://instagram.com/jarabacoaavertical',
+      href: 'https://www.instagram.com/jarabacoavertical/',
       color: 'hover:text-pink-500'
     },
     {
       icon: MessageCircle,
       label: 'WhatsApp',
-      href: 'https://wa.me/18090000000',
+      href: 'https://wa.me/18296196203',
       color: 'hover:text-green-500'
     }
   ];

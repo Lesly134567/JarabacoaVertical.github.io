@@ -25,10 +25,11 @@ export default function Hero() {
       <div className="relative z-10 text-center section-padding py-20">
         {/* Logo Area */}
         <div className="mb-8">
-          <div className="inline-flex items-center justify-center w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-white/10 backdrop-blur-sm border-2 border-[#c9a227]/50 mb-6">
-            <span className="text-4xl sm:text-5xl font-bold text-white">JV</span>
+        <div className="mb-6">
+  <img src="/logo.jpg" alt="JarabacoaVertical" className="h-24 sm:h-32 w-auto mx-auto" />
+</div>
           </div>
-        </div>
+        
 
         {/* Main Title */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 tracking-tight">
