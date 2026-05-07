@@ -54,7 +54,7 @@ export default function Navbar() {
               <div className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${
                 isScrolled ? 'bg-[#1a3c27]' : 'bg-white/20 backdrop-blur-sm border border-white/30'
               }`}>
-               <img src="/logo.jpg" alt="JarabacoaVertical" className="h-8 w-auto" />
+               <img src="/img/logo.jpg" alt="JarabacoaVertical" className="h-8 w-auto" />
               </div>
               <div className={`hidden sm:block transition-colors ${isScrolled ? 'text-[#1a3c27]' : 'text-white'}`}>
                 <span className="font-bold text-sm">JarabacoaVertical</span>

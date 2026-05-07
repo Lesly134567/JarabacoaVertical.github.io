@@ -26,7 +26,7 @@ export default function Hero() {
         {/* Logo Area */}
         <div className="mb-8">
         <div className="mb-6">
-  <img src="/logo.jpg" alt="JarabacoaVertical" className="h-24 sm:h-32 w-auto mx-auto" />
+  <img src="/img/logo.jpg" alt="JarabacoaVertical" className="h-24 sm:h-32 w-auto mx-auto" />
 </div>
           </div>
         

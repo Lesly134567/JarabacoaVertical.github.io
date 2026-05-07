@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="lg:col-span-1">
               <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-[#c9a227] rounded-lg flex items-center justify-center overflow-hidden">
-              <img src="/logo.jpg" alt="JarabacoaVertical" className="h-full w-full object-cover" />
+              <img src="/img/logo.jpg" alt="JarabacoaVertical" className="h-full w-full object-cover" />
                  </div>
                 <div>
                   <h3 className="text-lg font-bold">JarabacoaVertical</h3>
