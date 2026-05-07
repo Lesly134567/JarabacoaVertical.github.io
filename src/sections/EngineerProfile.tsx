@@ -42,7 +42,7 @@ export default function EngineerProfile() {
               {/* Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-[#2d5a3d]">
                 <img 
-                  src="img/daniel-galan.jpg" 
+                  src="/img/daniel-galan.jpg" 
                   alt="Ingeniero Galán"
                   className="w-full h-[450px] sm:h-[500px] object-cover"
                 />
